@@ -1,0 +1,28 @@
+.study_courses{
+  border-style: solid;
+  border-color: orange;
+  box-shadow: 0 0 15px orange;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  max-width: 250px;
+  min-height: 520px;
+  }
+
+.main{
+  margin-left: 15pt;
+  margin-right: 15pt;
+}
+
+.courses_cont {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.photo {
+  margin: 10px auto 20px;
+  display: block;
+}
