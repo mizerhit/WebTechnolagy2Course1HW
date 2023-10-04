@@ -6,12 +6,15 @@
   margin: 10px;
   padding: 10px;
   max-width: 250px;
-  min-height: 520px;
+  min-height: 580px;
+  margin-left: 0pt;
+  margin-right: 0pt;
   }
 
 .main{
   margin-left: 15pt;
   margin-right: 15pt;
+  font-family: Consolas;
 }
 
 .courses_cont {
@@ -25,4 +28,23 @@
 .photo {
   margin: 10px auto 20px;
   display: block;
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.all_page {
+  background-image: url(https://top-fon.com/uploads/posts/2023-02/1675287740_top-fon-com-p-fon-dlya-prezentatsii-belogo-tsveta-57.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
